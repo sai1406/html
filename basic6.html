@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="result.html" method ="GET"></form>
+    <h2>this is form tutorial</h2>
+    <!-- loinform -->
+    <form>
+        <div>
+            <!-- for and id is used for highlighting the labels -->
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="number">Age</label><br>
+            <input type="number" name="age" id="age" min="1" max="200">
+        </div>
+        <div>
+            <label for="date">Birthdate</label><br>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            GENDER<br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others"
+        </div>
+        <div>
+            <!-- another way for highlightings -->
+        <label>Password<br>
+        <input type="password" name="password" required>
+        </label>
+        </div>
+        <br><button>Reset</button>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
